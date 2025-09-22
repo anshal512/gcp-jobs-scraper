@@ -14,21 +14,6 @@ Modular structure (scrapers, db models, utils) for easy extension
 
 Ready for scheduling with Airflow or cron
 
-📂 Project Structure
-gcp_jobs_scraper/
-│── scrapers/
-│   ├── linkedin_scraper.py   # LinkedIn scraping logic
-│
-│── db/
-│   ├── models.py             # Postgres connection + insert logic
-│
-│── utils/
-│   ├── helpers.py            # (for future helpers/logging)
-│
-│── main.py                   # Entry point
-│── requirements.txt
-│── README.md
-
 ⚡ Installation
 
 Clone this repository:
@@ -84,4 +69,5 @@ Integrate Airflow for daily job runs
 Add logging + monitoring
 
 Extend scraper to other locations/roles
+
 
